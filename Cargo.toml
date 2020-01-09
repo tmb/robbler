@@ -1,0 +1,15 @@
+[package]
+name = "robbler"
+version = "0.1.0"
+authors = ["Theo B. <me@tmb.sh>"]
+edition = "2020"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+aspotify = "0.1.4"
+dotenv = "0.15.0"
+tokio = { version = "0.2", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+reqwest = { version = "0.10", features = ["json"] }
