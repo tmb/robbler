@@ -2,4 +2,4 @@
 ### Track your spotify listening
 
 
-Super WIP!
+Super WIP! Uses the Spotify API.
